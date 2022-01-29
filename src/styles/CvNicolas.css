@@ -15,7 +15,8 @@
     object-fit: contain;
     z-index: 1;
     background-image: url('../assets/images/me.jpg');
-    filter: drop-shadow(0 0 5px violet);
+    /* filter: drop-shadow(0 0 5px violet); */
+    filter: drop-shadow(0 0 5px #007979);
     scrollbar-width: none;
     background-repeat: no-repeat;
     background-size: cover;
@@ -27,11 +28,39 @@
     background-color: black;
     opacity: 0.8;
     position: absolute;
-    top: 30%;
-    left: 50%;
-    width: max-content;
+    top: 300px;
+    left: 32%;
+    /* width: max-content; */
+    width: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
     border-radius: 20px;
-    
+}
+
+#aboutMe{
+    font-size: 16px;
+    text-align: justify;
+}
+
+#infoSection{
+    /* padding-top: 30px; */
+    height: auto;
+    margin-top: 70px;
+    color: whitesmoke;
+    /* border-radius: 42px;
+    background: #007171;
+    box-shadow:  -35px -35px 70px #006969,
+                 35px 35px 70px #007979; */
+                 border-radius: 42px;
+background: #007171;
+box-shadow:  35px -35px 70px #006969,
+             -35px 35px 70px #007979;
+}
+
+#expInfo{
+    font-size: 16px;
+    text-align: justify;
+    color: black;
+    margin-bottom: 30px;
+    padding-top: 7px;
 }
