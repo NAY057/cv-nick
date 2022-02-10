@@ -43,7 +43,7 @@
 }
 
 #infoSection{
-    /* padding-top: 30px; */
+    padding-top: 30px;
     height: auto;
     margin-top: 70px;
     color: whitesmoke;
@@ -57,10 +57,38 @@ box-shadow:  35px -35px 70px #006969,
              -35px 35px 70px #007979;
 }
 
-#expInfo{
+#infoCard{
     font-size: 16px;
     text-align: justify;
     color: black;
     margin-bottom: 30px;
-    padding-top: 7px;
+    margin-top: 30px;
+    /* padding-top: 7px; */
 }
+
+.skillsCard{
+    display: grid;
+    margin-top: 10px;
+    grid-template-rows:    repeat(3, 70px);
+    grid-template-columns: repeat(4, 70px);
+    grid-gap: 60px;
+    text-align: center;
+    padding-bottom: 40px;
+    justify-content: center;
+}
+
+.skillsImg{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+
+#figureContainer{
+    white-space: nowrap;
+    text-align: center;
+}
+
+/* #figureContainer{
+    width: 200px;
+} */
+

@@ -1,9 +1,28 @@
 import React from "react";
 import "../styles/CvNicolas.css";
+import javascript_logo from "../assets/logos/javascript.png";
+import css3_logo from "../assets/logos/css3.png";
+import typescript_logo from "../assets/logos/typescript.png";
+import python_logo from "../assets/logos/python.png";
+import csharp_logo from "../assets/logos/csharp.png";
+import dart_logo from "../assets/logos/dart.svg";
+import html5_logo from "../assets/logos/html5.png";
+import jquery_logo from "../assets/logos/jquery.png";
+import jira_logo from "../assets/logos/jira.png";
+import bitbucket_logo from "../assets/logos/bitbucket.png";
+import bootstrap_logo from "../assets/logos/bootstrap.png";
+import github_logo from "../assets/logos/github.png";
+import sqlserver_logo from "../assets/logos/sqlserver.png";
+import mysql_logo from "../assets/logos/mysql.png";
+import mongodb_logo from "../assets/logos/mongodb.jpg";
+import firebase_logo from "../assets/logos/firebase.png";
+import postgresql_logo from "../assets/logos/postgresql.png";
 
 const CvNicolas = () => {
-    let timeDiff = Math.abs(new Date().getTime() - new Date(2021, 5, 3).getTime());
-    let now = Math.round(timeDiff / (2e3 * 3600 * 365.25));
+  let timeDiff = Math.abs(
+    new Date().getTime() - new Date(2021, 5, 3).getTime()
+  );
+  let now = Math.round(timeDiff / (2e3 * 3600 * 365.25));
   return (
     <div id="container">
       <div id="containerImg" className="row">
@@ -36,40 +55,254 @@ const CvNicolas = () => {
               {/* <span>Experiencia</span> */}
               <h1>Experience</h1>
               <div className="card"></div>
-              <br />
-              <div id="expInfo" className="card">
+              {/* <br /> */}
+              <div id="infoCard" className="card">
                 <p className="container">
-                <strong>Entity:</strong> Accenture Colombia <br />
-                <strong>Role:</strong> Full stack developer <br />
-                <strong>Duration:</strong> {now} months (May 2021 – Today) <br />
-                <strong>Tasks:</strong> python scripting, back-end and front-end web development with asp.net, SQL Server database administration, code documentation and legacy application management.
+                  <strong>Entity:</strong> Accenture Colombia <br />
+                  <strong>Role:</strong> Full stack developer <br />
+                  <strong>Duration:</strong> {now} months (May 2021 – Today){" "}
+                  <br />
+                  <strong>Tasks:</strong> python scripting, back-end and
+                  front-end web development with asp.net, SQL Server database
+                  administration, code documentation and legacy application
+                  management.
                 </p>
               </div>
               {/* <br /> */}
-              <div id="expInfo" className="card">
+              <div id="infoCard" className="card">
                 <p className="container">
-                <strong>Entity:</strong> Popayán’s City Hall  <br />
-                <strong>Role:</strong> Full stack developer <br />
-                <strong>Duration:</strong> 11 months (Feb 2020 – Dec 2020) <br />
-                <strong>Tasks:</strong> Responsible for the standardization of the strata database in Popayan city applying data mining techniques and Developer in charge of the planning, design, front-end and back-end using Laravel framework and MySQL in the development of the web platform for the stratification office of the Popayan City Hall ( <a href="http://insitu.popayan.gov.co:9501">proyect here</a> ).
+                  <strong>Entity:</strong> Popayán’s City Hall <br />
+                  <strong>Role:</strong> Full stack developer <br />
+                  <strong>Duration:</strong> 11 months (Feb 2020 – Dec 2020){" "}
+                  <br />
+                  <strong>Tasks:</strong> Responsible for the standardization of
+                  the strata database in Popayan city applying data mining
+                  techniques and Developer in charge of the planning, design,
+                  front-end and back-end using Laravel framework and MySQL in
+                  the development of the web platform for the stratification
+                  office of the Popayan City Hall ({" "}
+                  <a href="http://insitu.popayan.gov.co:9501">proyect here</a>{" "}
+                  ).
                 </p>
               </div>
               {/* <br /> */}
-              <div id="expInfo" className="card">
+              <div id="infoCard" className="card">
                 <p className="container">
-                <strong>Entity:</strong> Atix digital s.a.s <br />
-                <strong>Role:</strong> Mobile developer  <br />
-                <strong>Duration:</strong> (2 months Dec 2019 – Jan 2020)  <br />
-                <strong>Tasks:</strong> front-end and back-end development with flutter, firebase management and administration, the app name was Lalavanderie.
+                  <strong>Entity:</strong> Atix digital s.a.s <br />
+                  <strong>Role:</strong> Mobile developer <br />
+                  <strong>Duration:</strong> (2 months Dec 2019 – Jan 2020){" "}
+                  <br />
+                  <strong>Tasks:</strong> front-end and back-end development
+                  with flutter, firebase management and administration, the app
+                  name was Lalavanderie.
                 </p>
               </div>
             </section>
           </div>
           <div className="col">
             <section id="educaion">
-              {/* <span>educacion</span> */}
-              <h1>Education</h1>
+              <h1>Skills</h1>
               <div className="card"></div>
+              <div id="infoCard" className="card">
+                <div className="container">
+                  <strong>Programming:</strong>
+                  <div className="skillsCard">
+                    {/* javascript */}
+                    <figure id="figureContainer">
+                      <img
+                        src={javascript_logo}
+                        className="skillsImg"
+                        alt="Javascript"
+                        title="Javascript"
+                      />
+                      <figcaption>Javascript</figcaption>
+                    </figure>
+
+                    {/* Typescript */}
+                    <figure id="figureContainer">
+                      <img
+                        src={typescript_logo}
+                        className="skillsImg"
+                        alt="Typescript"
+                        title="Typescript"
+                      />
+                      <figcaption>Typescript</figcaption>
+                    </figure>
+
+                    {/* Python */}
+                    <figure id="figureContainer">
+                      <img
+                        src={python_logo}
+                        className="skillsImg"
+                        alt="Python"
+                        title="Python"
+                      />
+                      <figcaption>Python</figcaption>
+                    </figure>
+
+                    {/* c# */}
+                    <figure id="figureContainer">
+                      <img
+                        src={csharp_logo}
+                        className="skillsImg"
+                        alt="C#"
+                        title="C#"
+                      />
+                      <figcaption>Csharp</figcaption>
+                    </figure>
+
+                    {/* Dart */}
+                    <figure id="figureContainer">
+                      <img
+                        src={dart_logo}
+                        className="skillsImg"
+                        alt="Dart"
+                        title="Dart"
+                      />
+                      <figcaption>Dart</figcaption>
+                    </figure>
+
+                    {/* Jquery */}
+                    <figure id="figureContainer">
+                      <img
+                        src={jquery_logo}
+                        className="skillsImg"
+                        alt="Jquery"
+                        title="Jquery"
+                      />
+                      <figcaption>Jquery</figcaption>
+                    </figure>
+
+                    {/* Html5 */}
+                    <figure id="figureContainer">
+                      <img
+                        src={html5_logo}
+                        className="skillsImg"
+                        alt="Html5"
+                        title="Html5"
+                      />
+                      <figcaption>Html5</figcaption>
+                    </figure>
+
+                    {/* css3 */}
+                    <figure id="figureContainer">
+                      <img
+                        src={css3_logo}
+                        className="skillsImg"
+                        alt="CSS-3"
+                        title="CSS-3"
+                      />
+                      <figcaption>CSS-3</figcaption>
+                    </figure>
+
+                    {/* Bootstrap */}
+                    <figure id="figureContainer">
+                      <img
+                        src={bootstrap_logo}
+                        className="skillsImg"
+                        alt="Bootstrap"
+                        title="Bootstrap"
+                      />
+                      <figcaption>Bootstrap</figcaption>
+                    </figure>
+
+                    {/* Git and Github */}
+                    <figure id="figureContainer">
+                      <img
+                        src={github_logo}
+                        className="skillsImg"
+                        alt="git and github"
+                        title="git and github"
+                      />
+                      <figcaption>Github</figcaption>
+                    </figure>
+
+                    {/* Bitbucket */}
+                    <figure id="figureContainer">
+                      <img
+                        src={bitbucket_logo}
+                        className="skillsImg"
+                        alt="Bitbucket"
+                        title="Bitbucket"
+                      />
+                      <figcaption>Bitbucket</figcaption>
+                    </figure>
+
+                    {/* Jira */}
+                    <figure id="figureContainer">
+                      <img
+                        src={jira_logo}
+                        className="skillsImg"
+                        alt="Jira"
+                        title="Jira"
+                      />
+                      <figcaption>Jira</figcaption>
+                    </figure>
+                  </div>
+
+                </div>
+              </div>
+              <div id="infoCard" className="card">
+                <div className="container">
+                <strong>DataBases:</strong>
+                  <div className="skillsCard">
+                    {/* MySQL */}
+                    <figure id="figureContainer">
+                      <img
+                        src={mysql_logo}
+                        className="skillsImg"
+                        alt="MySQL"
+                        title="MySQL"
+                      />
+                      <figcaption>MySQL</figcaption>
+                    </figure>
+
+                    {/* SQLServer */}
+                    <figure id="figureContainer">
+                      <img
+                        src={sqlserver_logo}
+                        className="skillsImg"
+                        alt="SQLServer"
+                        title="SQLServer"
+                      />
+                      <figcaption>SQLServer</figcaption>
+                    </figure>
+
+                    {/* PostgreSQL */}
+                    <figure id="figureContainer">
+                      <img
+                        src={postgresql_logo}
+                        className="skillsImg"
+                        alt="PostgreSQL"
+                        title="PostgreSQL"
+                      />
+                      <figcaption>PostgreSQL</figcaption>
+                    </figure>
+
+                    {/* FireBase */}
+                    <figure id="figureContainer">
+                      <img
+                        src={firebase_logo}
+                        className="skillsImg"
+                        alt="FireBase"
+                        title="FireBase"
+                      />
+                      <figcaption>FireBase</figcaption>
+                    </figure>
+
+                    {/* MongoDB */}
+                    <figure id="figureContainer">
+                      <img
+                        src={mongodb_logo}
+                        className="skillsImg"
+                        alt="MongoDB"
+                        title="MongoDB"
+                      />
+                      <figcaption>MongoDB</figcaption>
+                    </figure>
+                  </div>
+                </div>
+              </div>
             </section>
           </div>
         </div>
