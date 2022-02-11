@@ -10,10 +10,13 @@ const Header = () => {
                         <a className="nav-link active" aria-current="page" href="/">Me</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="/">Experience</a>
+                        <a className="nav-link" href="#experience">Experience</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="/">Education</a>
+                        <a className="nav-link" href="#skllis">Skills</a>
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link" href="#education">Education</a>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link" href="/">Contact</a>
