@@ -20,7 +20,8 @@ import postgresql_logo from "../assets/logos/postgresql.png";
 
 const CvNicolas = () => {
     let timeDiff = Math.abs(
-        new Date().getTime() - new Date(2021, 5, 3).getTime()
+        // Be aware that month index is 0-based. This means that January = 0 and December = 11
+        new Date().getTime() - new Date(2021, 4, 3).getTime()
     );
     let now = Math.round(timeDiff / (2e3 * 3600 * 365.25));
     return (
@@ -60,7 +61,7 @@ const CvNicolas = () => {
                                 <p className="container">
                                     <strong>Entity:</strong> Accenture Colombia <br />
                                     <strong>Role:</strong> Full stack developer <br />
-                                    <strong>Duration:</strong> {now} months (May 2021 – Today){" "}
+                                    <strong>Duration:</strong> {now} months (May 2021 – Today)
                                     <br />
                                     <strong>Tasks:</strong> python scripting, back-end and
                                     front-end web development with asp.net, SQL Server database
@@ -73,15 +74,15 @@ const CvNicolas = () => {
                                 <p className="container">
                                     <strong>Entity:</strong> Popayán’s City Hall <br />
                                     <strong>Role:</strong> Full stack developer <br />
-                                    <strong>Duration:</strong> 11 months (Feb 2020 – Dec 2020){" "}
+                                    <strong>Duration:</strong> 11 months (Feb 2020 – Dec 2020)
                                     <br />
                                     <strong>Tasks:</strong> Responsible for the standardization of
                                     the strata database in Popayan city applying data mining
                                     techniques and Developer in charge of the planning, design,
                                     front-end and back-end using Laravel framework and MySQL in
                                     the development of the web platform for the stratification
-                                    office of the Popayan City Hall ({" "}
-                                    <a href="http://insitu.popayan.gov.co:9501">proyect here</a>{" "}
+                                    office of the Popayan City Hall (
+                                    <a href="http://insitu.popayan.gov.co:9501" rel="noopener noreferrer" target="_blank">proyect here</a>
                                     ).
                                 </p>
                             </div>
@@ -90,7 +91,7 @@ const CvNicolas = () => {
                                 <p className="container">
                                     <strong>Entity:</strong> Atix digital s.a.s <br />
                                     <strong>Role:</strong> Mobile developer <br />
-                                    <strong>Duration:</strong> (2 months Dec 2019 – Jan 2020){" "}
+                                    <strong>Duration:</strong> (2 months Dec 2019 – Jan 2020)
                                     <br />
                                     <strong>Tasks:</strong> front-end and back-end development
                                     with flutter, firebase management and administration, the app
@@ -107,9 +108,10 @@ const CvNicolas = () => {
                                     <strong>Location:</strong> Popayán - Cauca, Colombia <br />
                                     <strong>Degree:</strong> System Engineer <br />
                                     <strong>Duration:</strong> 2014 – 2019  <br />
-                                    <strong>Recognitions:</strong> Graduated with honors (identification of patterns in government datasets: A case study of thefts and traffic accidents in colombia), also winner of the <a href="https://cutt.ly/hO36aMX"> ACOFI award(pag-315)</a> in 2018 and co-founder of the data mining research group SIMD.
+                                    {/* <strong>Recognitions:</strong> Graduated with honors (identification of patterns in government datasets: A case study of thefts and traffic accidents in colombia), also winner of the <a href="https://cutt.ly/hO36aMX"> ACOFI award(pag-315)</a> in 2018 and co-founder of the data mining research group SIMD. */}
+                                    <strong>Recognitions:</strong> Graduated with honors (identification of patterns in government datasets: A case study of thefts and traffic accidents in colombia), also winner of the <a href="https://cutt.ly/hO36aMX" rel="noopener noreferrer" target="_blank"> ACOFI award(pag-315)</a> in 2018 and co-founder of the data mining research group SIMD.
                                     <br />
-                                    <strong>Publications: </strong>Article published in (IJBIDM) International Journal of Business Intelligence and Data Mining. <a href="https://www.inderscienceonline.com/doi/10.1504/IJBIDM.2021.118186"> Article here</a>
+                                    <strong>Publications: </strong>Article published in (IJBIDM) International Journal of Business Intelligence and Data Mining. <a href="https://www.inderscienceonline.com/doi/10.1504/IJBIDM.2021.118186" rel="noopener noreferrer" target="_blank"> Article here</a>
 
 
                                 </p>
@@ -123,7 +125,7 @@ const CvNicolas = () => {
                             <div id="infoCard" className="card">
                                 <div className="container">
                                     <strong>Programming:</strong>
-                                    <div className="skillsCard">
+                                    <div className="skillsCardPro">
                                         {/* javascript */}
                                         <figure id="figureContainer">
                                             <img
@@ -261,7 +263,7 @@ const CvNicolas = () => {
                             <div id="infoCard" className="card">
                                 <div className="container">
                                     <strong>DataBases:</strong>
-                                    <div className="skillsCard">
+                                    <div className="skillsCardDb">
                                         {/* MySQL */}
                                         <figure id="figureContainer">
                                             <img
@@ -321,7 +323,7 @@ const CvNicolas = () => {
                             </div>
                         </section>
                         <section id="languages">
-                        <h1>Languages</h1>
+                            <h1>Languages</h1>
                             <div className="card"></div>
                             <div id="infoCard" className="card">
                                 <p className="container">
@@ -336,5 +338,4 @@ const CvNicolas = () => {
         </div>
     );
 };
-
 export default CvNicolas;

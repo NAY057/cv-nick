@@ -45,15 +45,16 @@
 #infoSection{
     padding-top: 30px;
     height: auto;
-    margin-top: 70px;
+    margin-top: 80px;
+    margin-bottom: 80px;
     color: whitesmoke;
     /* border-radius: 42px;
     background: #007171;
     box-shadow:  -35px -35px 70px #006969,
                  35px 35px 70px #007979; */
-                 border-radius: 42px;
-background: #007171;
-box-shadow:  35px -35px 70px #006969,
+    border-radius: 42px;
+    background: #007171;
+    box-shadow:  35px -35px 70px #006969,
              -35px 35px 70px #007979;
 }
 
@@ -66,10 +67,21 @@ box-shadow:  35px -35px 70px #006969,
     padding-top: 16px;
 }
 
-.skillsCard{
+.skillsCardPro{
     display: grid;
     margin-top: 10px;
     grid-template-rows:    repeat(3, 70px);
+    grid-template-columns: repeat(4, 70px);
+    grid-gap: 60px;
+    text-align: center;
+    padding-bottom: 40px;
+    justify-content: center;
+}
+
+.skillsCardDb{
+    display: grid;
+    margin-top: 10px;
+    grid-template-rows:    repeat(2, 70px);
     grid-template-columns: repeat(4, 70px);
     grid-gap: 60px;
     text-align: center;

@@ -1,0 +1,12 @@
+#footer{
+    height:100%;
+    width: 100%;
+    /* z-index: 5; */
+    color: whitesmoke;
+    background-color: black
+}
+
+#imgfooter{
+    height: 18px;
+    width: 18px;
+} 
