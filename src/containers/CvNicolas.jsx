@@ -18,6 +18,7 @@ import mongodb_logo from "../assets/logos/mongodb.jpg";
 import firebase_logo from "../assets/logos/firebase.png";
 import postgresql_logo from "../assets/logos/postgresql.png";
 
+
 const CvNicolas = () => {
     let timeDiff = Math.abs(
         // Be aware that month index is 0-based. This means that January = 0 and December = 11
@@ -47,6 +48,14 @@ const CvNicolas = () => {
                             the consideration of SOLID and TDD.
                         </p>
                     </span>
+                    <a  href="#experience"  class="center-con">
+                        <div class="round">
+                            <div id="cta">
+                                <span class="arrow primera next "></span>
+                                <span class="arrow segunda next "></span>
+                            </div>
+                        </div>
+                    </a>
                 </div>
             </div>
             <div id="infoSection" className="container bg-dark">
@@ -329,6 +338,15 @@ const CvNicolas = () => {
                                 <p className="container">
                                     <strong>English: </strong> Advanced <br />
                                     <strong>Spanish:</strong> Native <br />
+                                </p>
+                            </div>
+                        </section>
+                        <section id="references">
+                            <h1>References</h1>
+                            <div className="card"></div>
+                            <div id="infoCard" className="card">
+                                <p className="container">
+                                    <strong>Available on request. </strong>  <br />
                                 </p>
                             </div>
                         </section>

@@ -7,6 +7,16 @@
 }
 
 #imgfooter{
-    height: 18px;
-    width: 18px;
+    height: 25px;
+    width: 25px;
+    margin-bottom: 5px;
 } 
+
+#bt_download_col{
+    text-align: center;
+    margin: auto;
+}
+
+
+
+

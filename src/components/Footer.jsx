@@ -1,22 +1,34 @@
 import React from 'react';
 import '../styles/Footer.css'
-import phone from '../assets/logos/phone.png'
+import linkedin from '../assets/logos/linkedin.png'
+import mobile from '../assets/logos/cellPhone.png'
+import email from '../assets/logos/email.png'
+import git from '../assets/logos/github2.png'
+import myCV from "../assets/cv/cv-Nicolas Aguirre Yacup 2022.pdf"
+import whatsapp from "../assets/logos/whtasapp.png"
 const Footer = () => {
     return (
         <div id='footer' className='card bg-dark '>
             <div className="container">
-                <h1>Contact</h1>
-                <div className="card"></div>
-                <p className="container">
-                    <img id='imgfooter' src={phone} alt="Phone" />: (+57) 318-547-0851 <br />
-                    <strong>Role:</strong> Full stack developer <br />
-                    <strong>Duration:</strong> months (May 2021 – Today)
-                    <br />
-                    <strong>Tasks:</strong> python scripting, back-end and
-                    front-end web development with asp.net, SQL Server database
-                    administration, code documentation and legacy application
-                    management.
-                </p>
+                <h1>You can reach me at:</h1>
+                <div className="card mb-3"></div>
+                <div className="row">
+                    <div className="col">
+                        <p className="container">
+                            <img id='imgfooter' src={linkedin} alt="LinkedIn" />: <a href="https://goo.su/9tKY" rel="noopener noreferrer" target="_blank">Nicolas Aguirre Yacup</a> <br />
+                            <img id='imgfooter' src={mobile} alt="Mobile Phone" />: (+57) 318-547-0851 <br />
+                            <img id='imgfooter' src={whatsapp} alt="WhatsApp" />: <a href="https://walink.co/687925" rel="noopener noreferrer" target="_blank"> (+57) 315-462-7068 </a> <br />
+                            {/* https://walink.co/687925 */}
+
+                            <img id='imgfooter' src={email} alt="Email" />: nicolas.aguirre.y@gmail.com <br />
+                            <img id='imgfooter' src={git} alt="GitHub" />: <a href="https://github.com/NAY057" rel="noopener noreferrer" target="_blank">NAY057</a><br />
+                        </p>
+                    </div>
+                    <div  id='bt_download_col' className="col">
+                    <a id='bt_download' type="button" class="btn btn-warning btn-lg" href={myCV} rel="noopener noreferrer" target="_blank" download="CV nicolas aguirre yacup.pdf"><strong>Download CV Here</strong>  </a>
+                    </div>
+                </div>
+
             </div>
         </div>
     );
