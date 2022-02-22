@@ -25,10 +25,10 @@ const Footer = () => {
                         </p>
                     </div>
                     <div id='bt_download_col' className="col">
-                        <a id='bt_download' type="button" class="btn btn-warning btn-lg" href={myCV} rel="noopener noreferrer" target="_blank" download="CV nicolas aguirre yacup.pdf"><strong>Download CV Here</strong>  </a>
+                        <a id='bt_download' type="button" className="btn btn-warning btn-lg" href={myCV} rel="noopener noreferrer" target="_blank" download="CV nicolas aguirre yacup.pdf"><strong>Download CV Here</strong>  </a>
                     </div>
                 </div>
-                <div class="text-center">
+                <div className="text-center">
                     <p>Desined with ❤ by Nicolas Aguirre Yacup - 2022</p>
                 </div>
             </div>

@@ -48,11 +48,11 @@ const CvNicolas = () => {
                             the consideration of SOLID and TDD.
                         </p>
                     </span>
-                    <a  href="#experience"  class="center-con">
-                        <div class="round">
+                    <a  href="#experience"  className="center-con">
+                        <div className="round">
                             <div id="cta">
-                                <span class="arrow primera next "></span>
-                                <span class="arrow segunda next "></span>
+                                <span className="arrow primera next "></span>
+                                <span className="arrow segunda next "></span>
                             </div>
                         </div>
                     </a>

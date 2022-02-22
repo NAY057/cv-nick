@@ -170,10 +170,13 @@
     animation-timing-function:linear;
 }
 
-@media only screen and (max-width: 600px) {
+
+
+@media only screen and (max-width: 600px){
     /* For mobiles */
     #myImage{
-        background-position-x: -806px;
+        /* background-position-x: -806px; */
+        background-position-x: -512px;
     }
     #containerTextName{
         width: max-content;
@@ -203,13 +206,14 @@
 
 } 
 
-@media only screen and (max-width: 810px) {
+
+@media only screen and (min-width: 810px) and (max-width: 920px) {
     /* For tablets: */
     #containerImg{
         width: auto;
         height: 600px;
     }
-    
+
     #containerTextName{
         width: max-content;
         left: 50%;
@@ -237,8 +241,4 @@
     li{
         padding-right: 14px;
     }
-}
-
-@media only screen and (min-width: 768px) {
-      /* For desktop: */
 }
