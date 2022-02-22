@@ -7,7 +7,7 @@ const Header = () => {
             <div id='nav-container' className="container-fluid">
                 <ul className="navbar-nav">
                     <li className="nav-item">
-                        <a className="nav-link active" aria-current="page" href="/">Me</a>
+                        <a className="nav-link active" aria-current="page" href="#containerTextName">Me</a>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link" href="#experience">Experience</a>
