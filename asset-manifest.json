@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/cv-nick/static/css/main.907cb4a5.css",
+    "main.js": "/cv-nick/static/js/main.9e0876d8.js",
+    "static/media/me.jpg": "/cv-nick/static/media/me.3411ae60bc9f11de0fa1.jpg",
+    "static/media/cv-Nicolas Aguirre Yacup 2022.pdf": "/cv-nick/static/media/cv-Nicolas Aguirre Yacup 2022.c5d9dac33b182e7c772b.pdf",
+    "static/media/sqlserver.png": "/cv-nick/static/media/sqlserver.a4ba4125aadc50241c26.png",
+    "static/media/whtasapp.png": "/cv-nick/static/media/whtasapp.958ba88839ff6fcb5f2f.png",
+    "static/media/postgresql.png": "/cv-nick/static/media/postgresql.a7fa39912c91e079e90b.png",
+    "static/media/mysql.png": "/cv-nick/static/media/mysql.bdbd1eb709e4c13258d2.png",
+    "static/media/css3.png": "/cv-nick/static/media/css3.e27f5f10348a87c3f119.png",
+    "static/media/github.png": "/cv-nick/static/media/github.9e094d235b4caa7c31fc.png",
+    "static/media/csharp.png": "/cv-nick/static/media/csharp.4a32f53d425c7ad4cb05.png",
+    "static/media/github2.png": "/cv-nick/static/media/github2.553c66159c5672f25df6.png",
+    "static/media/jira.png": "/cv-nick/static/media/jira.bfdaee442bc8319cfff3.png",
+    "static/media/jquery.png": "/cv-nick/static/media/jquery.7052b79fc5ac546be103.png",
+    "static/media/python.png": "/cv-nick/static/media/python.ede6f8e0b5be77243bae.png",
+    "static/media/firebase.png": "/cv-nick/static/media/firebase.1805c5830818dc61837b.png",
+    "static/media/cellPhone.png": "/cv-nick/static/media/cellPhone.9ead3a252254aaf40d5d.png",
+    "static/media/javascript.png": "/cv-nick/static/media/javascript.9d67de2b8981427ec752.png",
+    "static/media/bootstrap.png": "/cv-nick/static/media/bootstrap.268c4375260420e8d982.png",
+    "static/media/html5.png": "/cv-nick/static/media/html5.ff3cf75e3b7cbb4ea77c.png",
+    "static/media/email.png": "/cv-nick/static/media/email.d765005ce9d4caa3d69e.png",
+    "static/media/linkedin.png": "/cv-nick/static/media/linkedin.f249b38224ca41a0b909.png",
+    "static/media/dart.svg": "/cv-nick/static/media/dart.7b0850cbeb41e2134f9fe7d370bf8f1e.svg",
+    "index.html": "/cv-nick/index.html",
+    "main.907cb4a5.css.map": "/cv-nick/static/css/main.907cb4a5.css.map",
+    "main.9e0876d8.js.map": "/cv-nick/static/js/main.9e0876d8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.907cb4a5.css",
+    "static/js/main.9e0876d8.js"
+  ]
+}
