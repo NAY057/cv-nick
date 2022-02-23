@@ -28,14 +28,14 @@ const CvNicolas = () => {
     return (
         <div id="container">
             <div id="containerImg" className="row">
-                <span id="myImage" src="../assets/images/me.jpg" alt="" />
+                <span id="aboutMe" src="../assets/images/me.jpg" alt="" />
                 <div id="containerTextName" className="border border-dark fs-2 fw-bold">
                     <span id="textBox">
                         Nicolas Aguirre Yacup
                         <br />
                         <h2>Software Developer</h2>
                         <br />
-                        <p className="container" id="aboutMe">
+                        <p className="container" id="aboutMeText">
                             I do really love to learn new technologies and things every day, I
                             have the ability to work in team or individually with a good
                             stress management and pretty well disciplined, always focused in
