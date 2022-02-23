@@ -28,8 +28,8 @@ const Footer = () => {
                         <a id='bt_download' type="button" className="btn btn-warning btn-lg" href={myCV} rel="noopener noreferrer" target="_blank" download="CV nicolas aguirre yacup.pdf"><strong>Download CV Here</strong>  </a>
                     </div>
                 </div>
-                <div className="text-center">
-                    <p>Desined with ❤ by Nicolas Aguirre Yacup - 2022</p>
+                <div className="text-center mt-5">
+                    <h6>Desined with ❤ by Nicolas Aguirre Yacup - 2022</h6>
                 </div>
             </div>
         </div>

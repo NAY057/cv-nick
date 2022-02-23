@@ -7,6 +7,7 @@
 #containerImg{
     width: auto;
     height: 100vh;
+    margin: 0px;
 }
 
 #myImage{
@@ -83,7 +84,7 @@
     margin-top: 10px;
     grid-template-rows:    repeat(2, 70px);
     grid-template-columns: repeat(4, 70px);
-    grid-gap: 60px;
+    grid-gap: 50px;
     text-align: center;
     padding-bottom: 40px;
     justify-content: center;
@@ -174,9 +175,14 @@
 
 @media only screen and (max-width: 600px){
     /* For mobiles */
+    html{
+        width: fit-content;
+    }
+
     #myImage{
         /* background-position-x: -806px; */
         background-position-x: -512px;
+        padding: 0px;
     }
     #containerTextName{
         width: max-content;
@@ -184,15 +190,21 @@
         top: 10%;
     }
 
+    #containerImg{
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+    }
+
     .skillsCardPro{
-        grid-template-rows:    repeat(4, 70px);
-        grid-template-columns: repeat(3, 70px);
+        grid-template-rows:    repeat(4, 60px);
+        grid-template-columns: repeat(3, 60px);
     }
     
     .skillsCardDb{
 
-        grid-template-rows:    repeat(2, 70px);
-        grid-template-columns: repeat(3, 70px);
+        grid-template-rows:    repeat(2, 60px);
+        grid-template-columns: repeat(3, 60px);
 
     }
     

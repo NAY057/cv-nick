@@ -28,7 +28,7 @@ const CvNicolas = () => {
     return (
         <div id="container">
             <div id="containerImg" className="row">
-                <img id="myImage" src="../assets/images/me.jpg" alt="" />
+                <span id="myImage" src="../assets/images/me.jpg" alt="" />
                 <div id="containerTextName" className="border border-dark fs-2 fw-bold">
                     <span id="textBox">
                         Nicolas Aguirre Yacup
@@ -179,16 +179,17 @@ const CvNicolas = () => {
                                             <figcaption>Csharp</figcaption>
                                         </figure>
 
-                                        {/* Dart */}
+                                        {/* Bootstrap */}
                                         <figure id="figureContainer">
                                             <img
-                                                src={dart_logo}
+                                                src={bootstrap_logo}
                                                 className="skillsImg"
-                                                alt="Dart"
-                                                title="Dart"
+                                                alt="Bootstrap"
+                                                title="Bootstrap"
                                             />
-                                            <figcaption>Dart</figcaption>
+                                            <figcaption>Bootstrap</figcaption>
                                         </figure>
+
 
                                         {/* Jquery */}
                                         <figure id="figureContainer">
@@ -223,15 +224,15 @@ const CvNicolas = () => {
                                             <figcaption>CSS-3</figcaption>
                                         </figure>
 
-                                        {/* Bootstrap */}
+                                        {/* Jira */}
                                         <figure id="figureContainer">
                                             <img
-                                                src={bootstrap_logo}
+                                                src={jira_logo}
                                                 className="skillsImg"
-                                                alt="Bootstrap"
-                                                title="Bootstrap"
+                                                alt="Jira"
+                                                title="Jira"
                                             />
-                                            <figcaption>Bootstrap</figcaption>
+                                            <figcaption>Jira</figcaption>
                                         </figure>
 
                                         {/* Git and Github */}
@@ -256,16 +257,17 @@ const CvNicolas = () => {
                                             <figcaption>Bitbucket</figcaption>
                                         </figure>
 
-                                        {/* Jira */}
+                                        {/* Dart */}
                                         <figure id="figureContainer">
                                             <img
-                                                src={jira_logo}
+                                                src={dart_logo}
                                                 className="skillsImg"
-                                                alt="Jira"
-                                                title="Jira"
+                                                alt="Dart"
+                                                title="Dart"
                                             />
-                                            <figcaption>Jira</figcaption>
+                                            <figcaption>Dart</figcaption>
                                         </figure>
+
                                     </div>
                                 </div>
                             </div>
@@ -295,15 +297,15 @@ const CvNicolas = () => {
                                             <figcaption>SQLServer</figcaption>
                                         </figure>
 
-                                        {/* PostgreSQL */}
+                                        {/* MongoDB */}
                                         <figure id="figureContainer">
                                             <img
-                                                src={postgresql_logo}
+                                                src={mongodb_logo}
                                                 className="skillsImg"
-                                                alt="PostgreSQL"
-                                                title="PostgreSQL"
+                                                alt="MongoDB"
+                                                title="MongoDB"
                                             />
-                                            <figcaption>PostgreSQL</figcaption>
+                                            <figcaption>MongoDB</figcaption>
                                         </figure>
 
                                         {/* FireBase */}
@@ -317,16 +319,18 @@ const CvNicolas = () => {
                                             <figcaption>FireBase</figcaption>
                                         </figure>
 
-                                        {/* MongoDB */}
+                                        {/* PostgreSQL */}
                                         <figure id="figureContainer">
                                             <img
-                                                src={mongodb_logo}
+                                                src={postgresql_logo}
                                                 className="skillsImg"
-                                                alt="MongoDB"
-                                                title="MongoDB"
+                                                alt="PostgreSQL"
+                                                title="PostgreSQL"
                                             />
-                                            <figcaption>MongoDB</figcaption>
+                                            <figcaption>PostgreSQL</figcaption>
                                         </figure>
+
+
                                     </div>
                                 </div>
                             </div>
