@@ -4,7 +4,7 @@ import linkedin from '../assets/logos/linkedin.png'
 import mobile from '../assets/logos/cellPhone.png'
 import email from '../assets/logos/email.png'
 import git from '../assets/logos/github2.png'
-import myCV from "../assets/cv/cv-Nicolas Aguirre Yacup 2022.pdf"
+import myCV from "../assets/cv/cv-web-Nicolas Aguirre Yacup 2022.pdf"
 import whatsapp from "../assets/logos/whtasapp.png"
 const Footer = () => {
     return (
@@ -29,7 +29,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="text-center mt-5">
-                    <h6>Desined with ❤ by Nicolas Aguirre Yacup - 2022</h6>
+                    <h6>Designed with ❤ by Nicolas Aguirre Yacup - 2022</h6>
                 </div>
             </div>
         </div>
