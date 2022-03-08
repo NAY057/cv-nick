@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/cv-nick/static/css/main.7aa63d48.css",
-    "main.js": "/cv-nick/static/js/main.ef57bdbd.js",
+    "main.js": "/cv-nick/static/js/main.7b4ad3b3.js",
     "static/media/me.jpg": "/cv-nick/static/media/me.3411ae60bc9f11de0fa1.jpg",
-    "static/media/cv-Nicolas Aguirre Yacup 2022.pdf": "/cv-nick/static/media/cv-Nicolas Aguirre Yacup 2022.c5d9dac33b182e7c772b.pdf",
+    "static/media/cv-web-Nicolas Aguirre Yacup 2022.pdf": "/cv-nick/static/media/cv-web-Nicolas Aguirre Yacup 2022.3c4e911a9ddec299587d.pdf",
     "static/media/sqlserver.png": "/cv-nick/static/media/sqlserver.a4ba4125aadc50241c26.png",
     "static/media/whtasapp.png": "/cv-nick/static/media/whtasapp.958ba88839ff6fcb5f2f.png",
     "static/media/postgresql.png": "/cv-nick/static/media/postgresql.a7fa39912c91e079e90b.png",
@@ -25,10 +25,10 @@
     "static/media/dart.svg": "/cv-nick/static/media/dart.7b0850cbeb41e2134f9fe7d370bf8f1e.svg",
     "index.html": "/cv-nick/index.html",
     "main.7aa63d48.css.map": "/cv-nick/static/css/main.7aa63d48.css.map",
-    "main.ef57bdbd.js.map": "/cv-nick/static/js/main.ef57bdbd.js.map"
+    "main.7b4ad3b3.js.map": "/cv-nick/static/js/main.7b4ad3b3.js.map"
   },
   "entrypoints": [
     "static/css/main.7aa63d48.css",
-    "static/js/main.ef57bdbd.js"
+    "static/js/main.7b4ad3b3.js"
   ]
 }
